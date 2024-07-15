@@ -2,6 +2,8 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
 import Image from './assets/Untitled-1.png';
+
+
 export default function Navbar() {
     return (
         <div>
@@ -11,7 +13,7 @@ export default function Navbar() {
                         className="navbar-brand"
                         to="/main"
                     >
-                        <img src={Image} alt="" srcset="" />
+                        <img src={Image} alt="" />
                     </Link>
                     <button
                         aria-controls="navbarCollapse"
@@ -74,7 +76,6 @@ export default function Navbar() {
                     </div>
                 </div>
             </nav>
-
         </div>
     )
 }

@@ -3,6 +3,31 @@ html{
   scroll-behavior: smooth;
 }
 
+/* Navbar.css */
+
+@media (max-width: 767px) {
+  .navbar{
+    
+      position: relative;
+      top: -48px;
+  }
+
+  .navbar-nav .nav-item {
+      margin-bottom: 10px;
+  }
+
+  .navbar-toggler {
+      margin-left: auto;
+  }
+
+  .d-flex.align-items-lg-center.mt-3.mt-lg-0 {
+      justify-content: center;
+  }
+}
+
+
+
+
 aside {
   width: 30%;
   padding-left: 15px;

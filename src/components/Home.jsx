@@ -8,16 +8,16 @@ export default function Home() {
       <div id="carouselExampleInterval" className="carousel slide" data-bs-ride="carousel">
         <div className="carousel-inner ">
           <div className="carousel-item active" data-bs-interval="10000">
-            <img src={image1} className="d-block w-100 imaged" alt="..." />
+            <img src={image1} className=" w-100 imaged" alt="..." />
             <div><input className='position' type="text" /></div>
 
           </div>
           <div className="carousel-item" data-bs-interval="2000">
-            <img src={image2} className="d-block w-100 imaged" alt="..." />
+            <img src={image2} className=" w-100 imaged" alt="..." />
             <input className='position' type="text" />
           </div>
           <div className="carousel-item">
-            <img src={image3} className="d-block w-100 imaged" alt="..." />
+            <img src={image3} className=" w-100 imaged" alt="..." />
             <input className='position' type="text" />
           </div>
         </div>

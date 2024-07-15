@@ -11,8 +11,8 @@ const Sign = () => {
         event.preventDefault();
 
         // Hardcoded correct email and password
-        const correctEmail = ('test@example.com','ibad.2006.khan@gmail.com');
-        const correctPassword = ('password123','ibad2859');
+        const correctEmail = 'test@example.com';
+        const correctPassword = 'password123';
 
         if (email === correctEmail && password === correctPassword) {
             setMessage('Successful login');
